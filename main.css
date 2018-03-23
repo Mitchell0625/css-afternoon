@@ -1,0 +1,136 @@
+body {
+  background-image: url("./background.png");
+  background-size: 80vh;
+  background-position: 50px 150px;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  color: #fff;
+  padding-top: 20px;
+  height: 100vh;
+  overflow: hidden;
+}
+.container {
+  margin: 10px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 10vh;
+  margin: 0 40px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: gray;
+}
+
+.logo img {
+  height: 20px;
+}
+
+.logo h4 {
+  display: inline;
+  margin-left: 10px;
+}
+.subscribe {
+  border: solid 2px white;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.middle {
+  margin: auto;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+}
+.middle h3 {
+  line-height: 68px;
+  font-size: 56px;
+}
+.middle img {
+  margin-bottom: 20px;
+}
+.text {
+  width: 70%;
+}
+p {
+  margin: 20px;
+  line-height: 34px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.button {
+  height: 10vh;
+}
+.explore {
+  color: #0018a1;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 5px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+.invision h5 {
+  transform: rotate(-90deg);
+  text-transform: uppercase;
+  font-size: 10px;
+  margin-bottom: 60px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-height: 20vh;
+  padding: 10px;
+}
+.bottom-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.vertical {
+  width: 1px;
+  height: 5vh;
+  background-color: rgb(155, 152, 152);
+}
+.social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social img {
+  max-width: 5vw;
+}
+/******Media Queries ******/
